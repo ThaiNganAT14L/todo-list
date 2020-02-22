@@ -1,0 +1,313 @@
+html, body {
+  height: 100%; }
+
+.main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 33.3% auto; }
+  .main .introduction {
+    background-color: #152733;
+    color: #ffffffcc;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main .introduction .content-intro > h3 {
+      margin-bottom: 30px; }
+  .main .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left; }
+    .main .login .brand {
+      margin-bottom: 50px; }
+    .main .login .div-login {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px; }
+      .main .login .div-login .tittle-lg {
+        margin-right: 15px;
+        text-decoration: underline; }
+      .main .login .div-login .tittle-register {
+        color: black; }
+    .main .login .input-login {
+      display: flex;
+      flex-direction: column; }
+      .main .login .input-login input {
+        width: 350px;
+        height: 40px;
+        background-color: #F7F7F7;
+        border: 1px solid #F7F7F7;
+        border-radius: 5px;
+        margin: 5px 0;
+        padding: 9px 10px;
+        outline: 0; }
+    .main .login .button .btn {
+      padding: 10px 40px;
+      background-color: #007bff;
+      cursor: pointer; }
+      .main .login .button .btn:hover {
+        background-color: #0056b3; }
+    .main .login .button .forgetPass {
+      display: block; }
+    .main .login .login-with .btn > i {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      background-color: #000;
+      color: #fff;
+      border-radius: 25px;
+      text-align: center;
+      padding-top: 5px;
+      font-size: 15px;
+      margin: 0 5px; }
+    .main .login .login-with .fa-facebook-f {
+      background-color: #3b5998 !important; }
+    .main .login .login-with .fa-google {
+      background-color: #dd4b39 !important; }
+    .main .login .login-with .fa-linkedin-in {
+      background-color: #007bb6 !important; }
+
+.main-register {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 33.3% auto; }
+  .main-register .introduction {
+    background-color: #152733;
+    color: #ffffffcc;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main-register .introduction .content-intro > h3 {
+      margin-bottom: 30px; }
+  .main-register .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left; }
+    .main-register .login .brand {
+      margin-bottom: 50px; }
+    .main-register .login .div-login {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px; }
+      .main-register .login .div-login .tittle-lg {
+        margin-right: 15px;
+        color: black; }
+      .main-register .login .div-login .tittle-register {
+        text-decoration: underline; }
+    .main-register .login .input-login {
+      display: flex;
+      flex-direction: column; }
+      .main-register .login .input-login input {
+        width: 350px;
+        height: 40px;
+        background-color: #F7F7F7;
+        border: 1px solid #F7F7F7;
+        border-radius: 5px;
+        margin: 5px 0;
+        padding: 9px 10px; }
+    .main-register .login .button .btn {
+      padding: 10px 40px;
+      background-color: #007bff;
+      cursor: pointer; }
+      .main-register .login .button .btn:hover {
+        background-color: #0056b3; }
+    .main-register .login .button .forgetPass {
+      display: block; }
+    .main-register .login .login-with .btn > i {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      background-color: #000;
+      color: #fff;
+      border-radius: 25px;
+      text-align: center;
+      padding-top: 5px;
+      font-size: 15px;
+      margin: 0 5px; }
+    .main-register .login .login-with .fa-facebook-f {
+      background-color: #3b5998 !important; }
+    .main-register .login .login-with .fa-google {
+      background-color: #dd4b39 !important; }
+    .main-register .login .login-with .fa-linkedin-in {
+      background-color: #007bb6 !important; }
+
+@media only screen and (max-width: 1199.98px) {
+  .main {
+    grid-template-columns: auto; }
+    .main .introduction {
+      display: none; } }
+
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.main-todo {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 200px auto 321px; }
+  .main-todo .aside-info {
+    background-color: #4c5566;
+    color: #ffffffcc; }
+    .main-todo .aside-info .brand {
+      font-weight: 900;
+      padding: 20px 0;
+      margin: 0;
+      font-size: 1.7rem;
+      text-align: center;
+      background-color: #00000055;
+      box-sizing: border-box;
+      height: 70px; }
+    .main-todo .aside-info .list-pro {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+      .main-todo .aside-info .list-pro .icons {
+        padding-right: 10px; }
+      .main-todo .aside-info .list-pro:hover {
+        background-color: rgba(255, 255, 255, 0.2); }
+    .main-todo .aside-info .avatar .img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      padding-right: 10px; }
+      .main-todo .aside-info .avatar .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.5); }
+  .main-todo .todo {
+    box-sizing: border-box;
+    height: 100%; }
+    .main-todo .todo .tittle-todo {
+      font-size: 1.2rem;
+      font-weight: 900;
+      background-color: rgba(0, 0, 0, 0.05);
+      box-sizing: border-box;
+      height: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 10px; }
+    .main-todo .todo .tasks {
+      box-sizing: border-box;
+      background-color: rgba(0, 0, 0, 0.02);
+      padding: 15px;
+      height: calc(100vh - 70px - 50px);
+      overflow: auto; }
+      .main-todo .todo .tasks .article-task {
+        background-color: #5dcff3;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+        margin-bottom: 5px; }
+        .main-todo .todo .tasks .article-task .left_task {
+          display: flex;
+          flex-direction: row; }
+          .main-todo .todo .tasks .article-task .left_task p {
+            margin: 0;
+            width: 800px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden; }
+          .main-todo .todo .tasks .article-task .left_task input:checked + p {
+            text-decoration: line-through; }
+        .main-todo .todo .tasks .article-task .icons_task .fa-edit:hover {
+          color: blueviolet; }
+        .main-todo .todo .tasks .article-task .icons_task .fa-trash-alt:hover {
+          color: red; }
+    .main-todo .todo .footer-todo {
+      box-sizing: border-box;
+      height: 50px;
+      padding: 0 15px;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .main-todo .todo .footer-todo .btn-add {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #5dcff3;
+        border-radius: 5px;
+        height: 40px;
+        box-sizing: border-box;
+        margin-left: 10px; }
+        .main-todo .todo .footer-todo .btn-add:hover {
+          background-color: #97dcf1; }
+      .main-todo .todo .footer-todo input {
+        box-sizing: border-box;
+        padding: 5px 10px;
+        line-height: 25px;
+        height: 40px;
+        width: 900px;
+        border-radius: 5px;
+        outline: 0; }
+  .main-todo .column-right {
+    box-sizing: border-box;
+    height: 100%;
+    border-left: 1px solid rgba(0, 0, 0, 0.2); }
+    .main-todo .column-right .tittle {
+      font-size: 1.2rem;
+      font-weight: 900;
+      background-color: rgba(0, 0, 0, 0.05);
+      box-sizing: border-box;
+      height: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 10px; }
+    .main-todo .column-right .list-cmt {
+      box-sizing: border-box;
+      background-color: rgba(0, 0, 0, 0.02);
+      height: calc(100vh - 70px - 50px);
+      overflow-x: auto; }
+      .main-todo .column-right .list-cmt .item-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+        .main-todo .column-right .list-cmt .item-list .icons_list .fa-times:hover {
+          color: red; }
+        .main-todo .column-right .list-cmt .item-list .name-list {
+          width: 90%;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden; }
+    .main-todo .column-right .footer-cmt {
+      box-sizing: border-box;
+      padding: 0 15px;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .main-todo .column-right .footer-cmt .btn-add {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #f783ac;
+        border-radius: 5px;
+        height: 40px;
+        box-sizing: border-box;
+        margin-left: 10px; }
+        .main-todo .column-right .footer-cmt .btn-add:hover {
+          background-color: #f5abc5; }
+      .main-todo .column-right .footer-cmt input {
+        box-sizing: border-box;
+        padding: 5px 10px;
+        line-height: 25px;
+        height: 40px;
+        width: 250px;
+        border-radius: 5px;
+        outline: 0; }
+
